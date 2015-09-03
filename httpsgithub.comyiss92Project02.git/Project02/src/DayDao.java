@@ -15,7 +15,7 @@ public class DayDao {
 	private String sql;
 
 	private static final String DVN = "com.mysql.jdbc.Driver";
-	private static final String DBU = "jdbc:mysql://127.0.0.1:3306/test";
+	private static final String DBU = "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=euckr"";
 	private static final String DB_ID = "root";
 	private static final String DB_PW = "hanbit";
 
