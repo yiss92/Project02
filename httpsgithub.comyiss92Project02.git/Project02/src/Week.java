@@ -186,6 +186,9 @@ public class Week extends JFrame {
 	private JTextField textField_173;
 	private JTextField textField_174;
 
+	
+	//yiss92 add Week class
+	Week myWeek = null;
 	/**
 	 * Launch the application.
 	 */
@@ -491,6 +494,8 @@ public class Week extends JFrame {
 		textField_25.setBounds(237, 33, 146, 21);
 		contentPane.add(textField_25);
 		
+		
+		//월요일
 		textField_26 = new JTextField();
 		textField_26.setText("");
 		textField_26.setEditable(false);
@@ -666,6 +671,7 @@ public class Week extends JFrame {
 		textField_50.setBounds(395, 33, 146, 21);
 		contentPane.add(textField_50);
 		
+		//화요일
 		textField_51 = new JTextField();
 		textField_51.setText("");
 		textField_51.setEditable(false);
@@ -841,6 +847,7 @@ public class Week extends JFrame {
 		textField_75.setBounds(553, 30, 146, 21);
 		contentPane.add(textField_75);
 		
+		//수요일
 		textField_76 = new JTextField();
 		textField_76.setText("");
 		textField_76.setEditable(false);
@@ -1533,5 +1540,8 @@ public class Week extends JFrame {
 		textField_174.setColumns(10);
 		textField_174.setBounds(1027, 771, 146, 21);
 		contentPane.add(textField_174);
+		
+		Week myWeek = new Week();
+		
 	}
 }
